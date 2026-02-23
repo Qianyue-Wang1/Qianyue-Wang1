@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jinwu Hu's Homepage"
+title                    : "Qianyue Wang's Homepage"
 title_separator          : "-"
-name                     : &name "Jinwu Hu"
-description              : &description "Jinwu Hu's academic site"
-url                      : https://Fhujinwu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Qianyue Wang"
+description              : &description "Qianyue Wang's academic site"
+url                      : https://qianyue-wang1.github.io/Qianyue-Wang1/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Fhujinwu.github.io"
+repository               : "qianyue-wang1.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jinwu Hu"
-  avatar           : "JinwuHu.jpg"
-  bio              : "PhD Student @ South China University of Technology"
+  name             : "Qianyue Wang"
+  avatar           : "qianyue_wang.jpg"
+  bio              : "Master Student @ South China University of Technology"
   location         : "Guangzhou, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=XmqjPi0AAAAJ&hl=en"
-  email            : "fhujinwu[at]gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=AsLKc_gAAAAJ"
+  email            : "amandawang12138@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Fhujinwu"
+  github           : "https://github.com/Qianyue-Wang1"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-6025-8578"
+  orcid            : "https://orcid.org/0009-0003-7690-6183"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -115,7 +115,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
 
 # Reading Files
 include:
