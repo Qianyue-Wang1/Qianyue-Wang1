@@ -16,7 +16,7 @@ I am a master student at the South China University of Technology (2024~) superv
 My recent research interests include efficient reasoning strategies for large language models (LLMs), controllable text generation, and human-computer interaction.
 - For efficient reasoning strategies in LLMs, I focus on how to effectively incorporate human knowledge into the reasoning process to enhance controllability and credibility.
 - For controllable text generation, I mainly study structured text generation and content quality control.
-- For human-computer interaction, I rethink the human-computer relationship in the context of large models, striving to translate multi-domain research into practical applications. Currently, I am dedicated to developing a new generation of multi-source data management system that integrates educational AI and deep LLM participation.
+- For human-computer interaction, I rethink the human-computer relationship in the context of large models. 
 
 
 ## 🔥 Recent News
