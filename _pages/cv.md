@@ -1,21 +1,24 @@
 ---
-layout: single
-title: "Curriculum Vitae"
+layout: null
+title: "CV"
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% assign cv_url = '/files/Qianyue_Wang_CV.pdf' | relative_url %}
+{% include base_path %}
+{% assign cv_url = base_path | append: 'files/Qianyue_Wang_CV.pdf' %}
 
-<div class="notice--primary" markdown="1">
-#### Latest CV
-
-<a class="btn" href="{{ cv_url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Open PDF</a>
-<a class="btn btn--inverse" href="{{ cv_url }}" download><i class="fas fa-download" aria-hidden="true"></i> Download PDF</a>
-</div>
-
-<object data="{{ cv_url }}" type="application/pdf" width="100%" style="height: 1100px; border: 1px solid #e5e5e5; border-radius: 4px;">
-  <p>Your browser cannot display this PDF inline. <a href="{{ cv_url }}">Open or download the CV.</a></p>
-</object>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ cv_url }}">
+    <link rel="canonical" href="{{ cv_url }}">
+    <title>Opening CV…</title>
+    <script>window.location.replace({{ cv_url | jsonify }});</script>
+  </head>
+  <body>
+    <p>Opening <a href="{{ cv_url }}">CV PDF</a>…</p>
+  </body>
+</html>
