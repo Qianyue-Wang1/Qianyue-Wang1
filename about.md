@@ -11,15 +11,6 @@ redirect_from:
 
 I am a master student at the South China University of Technology (2024~) supervised by Prof. [Mingkui Tan](https://tanmingkui.github.io/) (国家级青年人才). I received my bachelor's degree from South China University of Technology in 2024.  My research interests include test-time scaling in Large Language Models, human-computer interaction and AI for Science. I published papers in top venues, including ICML, IJCAI, NAACL and Journal of Software. 
 
-## 📄 Curriculum Vitae
-
-<div class="notice--primary" markdown="1">
-The latest version of my CV is available as a PDF.
-
-<a class="btn" href="{{ '/cv/' | relative_url }}"><i class="fas fa-eye" aria-hidden="true"></i> View CV</a>
-<a class="btn btn--inverse" href="{{ '/files/Qianyue_Wang_CV.pdf' | relative_url }}" download><i class="fas fa-download" aria-hidden="true"></i> Download PDF</a>
-</div>
-
 
 ## 🧠 Research Interests
 My recent research interests include efficient reasoning strategies for large language models (LLMs), controllable text generation, and human-computer interaction.
