@@ -6,7 +6,7 @@
 
   var controls = publications.querySelector(".publication-filters");
   var buttons = publications.querySelectorAll("[data-publication-filter]");
-  var groups = publications.querySelectorAll("[data-publication-direction]");
+  var groups = publications.querySelectorAll("[data-publication-entry]");
   var status = publications.querySelector(".publication-filter-status");
   if (!controls || !buttons.length || !groups.length || !status) return;
 
@@ -18,7 +18,7 @@
       var visible = direction === "all" ||
         group.getAttribute("data-publication-direction") === direction;
       group.hidden = !visible;
-      if (visible) count += group.querySelectorAll("li").length;
+      if (visible) count += 1;
     });
 
     Array.prototype.forEach.call(buttons, function (button) {
