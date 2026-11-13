@@ -9,15 +9,22 @@ redirect_from:
 ---
 ## 🙋‍♂️ About Me
 
-I am a master's student in Software Engineering at South China University of Technology (SCUT), advised by Prof. [Mingkui Tan](https://tanmingkui.github.io/). I received my B.Eng. in Software Engineering from SCUT in 2024 and expect to graduate in July 2027. My current research focuses on reliable and efficient LLM reasoning by invistigating process-level interactive reasoning, where external knowledge and human feedback dynamically engage in the reasoning process to work with LLM-based assitant, instead of being replaced by LLMs. My work has appeared at venues including ICML and NAACL, and Journal of Software.
+I am a master's student in Software Engineering at South China University of Technology (SCUT), advised by Prof. [Mingkui Tan](https://tanmingkui.github.io/). I received my B.Eng. in Software Engineering from SCUT in 2024 and expect to graduate in July 2027. My current research focuses on **reliable and efficient LLM reasoning** by invistigating process-level interactive reasoning, where external knowledge and human feedback dynamically engage in the reasoning process to work with LLM-based assitant, instead of being replaced by LLMs. My work has appeared at venues including ICML and NAACL, and Journal of Software.
 
 
 ## 🧠 Research Interests
 
-- **Human–LLM Collaborative Reasoning:** Studies how human feedback and LLM reasoning can interact to adapt the depth and direction of problem solving.
-- **Controllable Content Generation:** Develops planning, memory, and evidence-construction methods for coherent long-form writing and consistent text–chart reports.
-- **Test-time Knowledge Enhancement:** Uses retrieved knowledge and prior experience to ground LLM outputs and reduce redundant reasoning at inference time.
+{% include base_path %}
+<figure class="research-map">
+  <a href="{{ base_path }}/my_personal_introduction/research_map.png" aria-label="View full-size research journey map">
+    <img src="{{ base_path }}/my_personal_introduction/research_map.png" alt="Research journey map: from trustworthy government question answering and long-form generation to test-time knowledge enhancement, writing-time evidence construction, interactive reasoning, and future human–LLM collaboration." width="1670" height="942" loading="lazy">
+  </a>
+</figure>
 
+
+- **Human–LLM Collaborative Reasoning:** Studies how human beings can work together with LLMs with low cognitive burden to solve complex or creative open-ended tasks.
+- **Controllable Content Generation:** Develops methods for coherent long-form writing with reliable insights and standarded format.
+- **Test-time Knowledge Enhancement:** Try to manage knowlege, including retrive, summarize and update knowlege or experience, to improve the interatability and efficiency of complex reasoning tasks.
 
 
 ## 🔥 Recent News
